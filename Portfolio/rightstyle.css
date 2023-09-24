@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+.rightbox{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  /* margin-top: 10px; */
+  /* border: 1px solid black; */
+}
+
+/*======================= ABOUT SECTION ===================== */
+
+
+.name {
+  width: auto;
+  margin-bottom: 2rem;
+  /* border: 1px solid red; */
+}
+h1{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5.5rem;
+  font-weight: 500;
+  word-spacing: 3rem;
+  margin-top: 4rem;
+  
+}
+.small{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 2.5rem;
+}
+#mail {
+  margin-left: .5rem;
+  text-decoration: none;
+  color: grey;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  /* margin-top: 25px; */
+  
+  /* border: 1px solid red; */
+}
+.containt{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  line-height: 3.5rem;
+  font-size: 1.9rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+#resume{
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* ================ EDUCATION =========== */
+
+#education{
+  /* border: 1px solid black; */
+}
+.dates{
+  display: none;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 200;
+  
+}
+#education h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+}
+.degree{
+  margin-top: 2rem;
+  /* border: 1px solid red; */
+}
+.degree h3{
+  font-size: 3rem;
+  font-weight: 500;
+  word-spacing: 1rem;
+  margin-top: 3rem;
+}
+#date{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  float: right;
+  font-weight: 200;
+  
+}
+.degree p{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+
+/* ================ EXPERIENCE ================== */
+
+#experience{
+  /* border: 1px solid black; */
+}
+#experience h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+}
+.exp{
+  margin-top: 2rem;
+}
+.exp h3{
+  font-size: 30px;
+  font-weight: 500;
+  word-spacing: 1rem;
+}
+.exp p{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+.description{
+  font-size: 17px;
+  position: absolute;
+  margin-left: -370px;
+  margin-top: 38px;
+}
+.exp ul{
+  margin-left: 25px;
+  /* border: 1px solid red; */
+}
+.exp ul li{
+  padding: .5rem;
+  list-style: none;
+  font-size: 2rem;
+  /* border: 1px solid black; */
+}
+.exp ul li::before{
+  content: "\2022";
+  color: violet;
+  display: inline-block;
+  margin-left: -1px;
+  margin-right: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* ============= PROJECT SECTION =========== */
+#projects h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+}
+.pro{
+  margin-top: 2rem;
+}
+.pro h3{
+  font-size: 30px;
+  font-weight: 500;
+  word-spacing: 1rem;
+}
+.pro p{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+.gitlink{
+  margin-top: 2rem;
+  margin-left: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+/* ============= VOLENTEER SECTION =========== */
+
+#volunteer h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+}
+
+
+#skills h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  margin-top: 2rem;
+}
+.skillset{
+  margin-top: 2rem;
+}
+.skillset p{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+.skillset h3{
+  font-size: 30px;
+  font-weight: 500;
+  word-spacing: 1rem;
+}
+
+/* ================ logo section =========== */
+.logo{
+  display: flex;
+  align-items:start;
+  width: auto;
+  height: 70px;
+  margin-top: auto;
+  /* border: 1px solid red; */
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  padding: .5rem;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  border-radius: 50% ;
+  background-color: #1a222b;
+  /* border: 1px solid black; */
+}
+.size{
+  font-size: 30px;
+
+}
+.git:hover{
+  color:  #f6f8fa;
+  transition: 0.2s ease-out;
+}
+.linkdln:hover{
+  color:  #0077B5;
+  transition: 0.2s ease-out;
+}
+.facebook:hover{
+  color:  #0A42A4;
+  transition: 0.2s ease-out;
+}
+.insta:hover{
+  color: red;
+  transition: 0.2s ease-out;
+}
+.youtube:hover{
+  color: #FF0000;
+  transition: 0.2s ease-out;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: rgb(201, 201, 201);
+}
+::-webkit-scrollbar-thumb{
+  background: #3e8ee9;
+  border-radius: 2rem;
+
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #1a222b;
+}
+
+@media screen and (max-width: 1314px) {
+  #date{
+    margin-left: 45%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body{
+    text-align: center;
+  }
+  .dates{
+    display: block;
+  }
+  #date{
+    display: none;
+  }
+  #about,
+  #education,
+  #experience,
+  #projects,
+  #volunteer,
+  #skills {
+    padding: 10px;
+  }
+  .containt{
+    text-align: justify;
+  }
+  .mobile-navbar-btn {
+    display: inline-block;
+    z-index: 100;
+  }
+  .mobile-nav-icon {
+    margin: 0.6rem;
+  }
+  
+  #header{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    margin: auto;
+    opacity: 5;
+  }
+  
+  .photo-div{
+    display: none;
+  }
+  .leftbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin:0;
+    z-index: 10;
+    background: solid #202124;
+    
+  }
+  .about{
+    text-align: left;
+    position: absolute;
+    top: 8.9rem;
+    left: 0;
+    height: 41rem;
+    background-color: #0a0f14;
+    width: 100vw;
+    transform: translateY(-130%);
+    transition: all .3s linear;
+    opacity: 0;
+    visibility: visible;
+    color: #ffff;
+    
+  }
+  .about a{
+    margin-left: 0.7rem;
+
+  }
+  .logo{
+    margin: auto;
+  }
+  .container{
+    width: 100%;
+    left: 0;
+    top: 4rem;
+  }
+  .main a{
+    text-align: center;
+  }
+  #role,
+  #listid{
+    display: none;
+  }
+  .phone {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+    /* pointer-events: all; */
+}
+}
