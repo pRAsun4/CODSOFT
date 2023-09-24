@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h4 class="headText">CASIO</h4>
+        </div>
+        <div class="useInput">
+            <input type="text" id="inputText">
+        </div><br><br>
+        <div class="buttns">
+            <buttons class="btns  " style="background-color: #23753f;" onclick="allClear()">AC </buttons>
+            <buttons class="btns  " style="background-color: #3c3cc1;">
+                <span class="f calBtn " id="leftBracket">(</span>
+                
+                <span class="s calBtn" id="rightBracket">)</span>
+            </buttons>
+            <buttons class="btns calBtn " style="background-color: #3c3cc1;">%</buttons>
+            <buttons class="btns calBtn " style="background-color: #3c3cc1;">/</buttons>
+            <buttons class="btns calBtn ">7</buttons>
+            <buttons class="btns calBtn ">8</buttons>
+            <buttons class="btns calBtn ">9</buttons>
+            <buttons class="btns calBtn " style="background-color: #3c3cc1;">*</buttons>
+            <buttons class="btns calBtn ">4</buttons>
+            <buttons class="btns calBtn ">5</buttons>
+            <buttons class="btns calBtn ">6</buttons>
+            <buttons class="btns calBtn " style="background-color: #3c3cc1;">+</buttons>
+            <buttons class="btns calBtn ">1</buttons>
+            <buttons class="btns calBtn ">2</buttons>
+            <buttons class="btns calBtn ">3</buttons>
+            <buttons class="btns calBtn " style="background-color: #3c3cc1;">- </buttons>
+            <buttons class="btns calBtn ">0</buttons>
+            <buttons class="btns calBtn " style="font-size: larger;">. </buttons>
+            <buttons class="btns  " onclick="clearLeft()">
+                <i class="bi bi-backspace" style="color: red;"></i>
+            </buttons>
+            <buttons class="btns  " style="background-color: #8c94af;" onclick="showResults()">=</buttons>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+   
+
+</body>
+</html>
